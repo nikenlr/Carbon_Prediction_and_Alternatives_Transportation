@@ -281,7 +281,6 @@ def recommendation(alternative_emission, max_limit):
 def predict(car_data):
   prediction = model.predict(usercar)
   carbonpred = prediction[0][0]
-
   print(f"\nPredicted CO2 Emission: {carbonpred} g/km")
 
   # Calculate carbon emissions
